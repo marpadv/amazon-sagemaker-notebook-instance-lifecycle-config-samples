@@ -15,6 +15,7 @@ Lifecycle Configurations provide a mechanism to customize Notebook Instances via
 * [enable-fips-openssl-provider](scripts/enable-fips-openssl-provider) - This script enables the OpenSSL FIPS provider in each conda environment.
 * [execute-notebook-on-startup](scripts/execute-notebook-on-startup) - This script executes a Notebook file on the instance during startup.
 * [export-to-pdf-enable](scripts/export-to-pdf-enable) - This script enables Jupyter to export a notebook directly to PDF.
+* [install-codewhisperer-extension](scripts/install-codewhisperer-extension) - This script installs a codewhisperer extension package in SageMaker Notebook Instance.
 * [install-conda-package-all-environments](scripts/install-conda-package-all-environments) - This script installs a single conda package in all SageMaker conda environments, apart from the JupyterSystemEnv which is a system environment reserved for Jupyter.
 * [install-conda-package-single-environment](scripts/install-conda-package-single-environment) - This script installs a single conda package in a single SageMaker conda environment.
 * [install-lab-extension](scripts/install-lab-extension) - This script installs a jupyterlab extension package in SageMaker Notebook Instance.
